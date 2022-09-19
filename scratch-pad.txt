@@ -4,3 +4,11 @@ email: VARCHAR 255 (string)
 password: VARCHAR 255 (string)
 
 sequelize model:create --name user --attributes email:string,password:string
+
+FORUM MODEL
+----------
+name string
+topic string
+moderated boolean
+
+sequelize model:create --name forum --attributes name:string,topic:string,moderated:boolean
