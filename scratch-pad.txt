@@ -12,3 +12,13 @@ topic string
 moderated boolean
 
 sequelize model:create --name forum --attributes name:string,topic:string,moderated:boolean
+
+
+THREAD MODEL
+----------
+title string
+text text
+forumId int
+
+
+sequelize model:create --name thread --attributes 
